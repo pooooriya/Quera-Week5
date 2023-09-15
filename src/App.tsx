@@ -1,11 +1,11 @@
-import Gallery from "./components/Gallery";
+import Todo from "./components/Todo";
 
-function App() {
+const App: React.FC = (): JSX.Element => {
   return (
     <div>
-      <Gallery />
+      <Todo />
     </div>
   );
-}
+};
 
 export default App;
